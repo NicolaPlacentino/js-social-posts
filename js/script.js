@@ -16,3 +16,17 @@ Ogni post dovrà avere le informazioni necessarie per stampare la relativa card:
 Prendendo come riferimento il layout di esempio presente nell'html, stampiamo i post del nostro feed.
 #Milestone 3
 Se clicchiamo sul tasto "Mi Piace" cambiamo il colore al testo del bottone e incrementiamo il counter dei likes relativo.*/
+
+const data = [
+    { postID:1, postAuthor:'Phil Mangione', postAuthorProfilePicture:'https://unsplash.it/300/300?image=15',postDate:'12-09-2022',postImage:'https://unsplash.it/600/300?image=171',postLikes: 34,postText:"Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias."},
+    { postID:2, postAuthor:'Sofia Perlari', postAuthorProfilePicture:'https://unsplash.it/300/300?image=56',postDate:'10-18-2021',postLikes: 4,postText:"Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias."},
+    { postID:3, postAuthor:'Ronald McDonald', postDate:'12-09-2022',postImage:'https://unsplash.it/600/300?image=15',postLikes: 68,postText:"Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias."},
+    { postID:4, postAuthor:'Phil Mangione', postAuthorProfilePicture:'https://unsplash.it/300/300?image=7',postDate:'12-09-2022',postImage:'https://unsplash.it/600/300?image=51',postLikes: 3495,postText:"Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias."},
+    { postID:5, postAuthor:'Phil Mangione', postDate:'12-09-2022',postLikes: 0,postText:"Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias."},
+
+]
+
+const containerElement = document.getElementById('container');
+
+console.log(containerElement)
+
